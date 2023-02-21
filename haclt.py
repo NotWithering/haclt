@@ -39,4 +39,3 @@ while True:
         break
     var_filtered = os.popen(f"echo '{json.dumps(var_data)}' | jq '{var_jq}'").read()
     print(f"\n{json.dumps(json.loads(var_filtered), indent=2)}\n")
-
