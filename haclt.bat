@@ -50,4 +50,3 @@ goto :filter
 
 :start
 pause
-
